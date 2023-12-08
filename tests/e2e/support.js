@@ -1,1 +1,1 @@
-import '../../support/index';
+require('../../support/index');

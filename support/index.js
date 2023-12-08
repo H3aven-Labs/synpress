@@ -1,5 +1,5 @@
-import './commands';
-import { configure } from '@testing-library/cypress';
+require('./commands');
+const { configure } = require('@testing-library/cypress');
 
 configure({ testIdAttribute: 'data-testid' });
 
